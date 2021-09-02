@@ -1,2 +1,5 @@
-# tampermonkeyScript
-Tampermonkey script
+# 自用油猴脚本
+
+## 脚本列表
+* 修改`XMLHTTPRequest`对象，方便连接到本地开发环境测试
+* 解除部分csdn限制，如关注查看全文或者登录才能复制等
