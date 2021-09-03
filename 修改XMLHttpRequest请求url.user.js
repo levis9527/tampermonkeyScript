@@ -23,12 +23,14 @@
             url = url.replace(oldHostVal, newHostVal);
             return open.call(this, method, url, ...rest);
         };
+        alert("修改host成功")
     }
 
     window.initHost = function () {
         XMLHttpRequest.prototype.open = function (method, url, ...rest) {
             return open.call(this, method, url, ...rest);
         };
+        alert("重置host成功")
     }
 
     var body = document.getElementsByTagName('body')[0]
